@@ -11,7 +11,7 @@ Compile 006 elapsed time 117 seconds. -DAPP=S2S -DDEBUG=ON -DCCPP_SUITES=FV3_GFS
 baseline dir = /scratch1/NCEPDEV/nems/emc.nemspara/RT/NEMSfv3gfs/develop-20220304/GNU/control
 working dir  = /scratch1/NCEPDEV/stmp2/emc.nemspara/FV3_RT/rt_17334/control
 Checking test 001 control results ....
- Comparing sfcf000.nc .........OK
+ Comparing sfcf000.nc .........FAIL
  Comparing sfcf021.nc .........OK
  Comparing sfcf024.nc .........OK
  Comparing atmf000.nc .........OK
