@@ -9,7 +9,7 @@ baseline dir = /scratch1/NCEPDEV/stmp4/Minsuk.Ji/FV3_OPNREQ_TEST/OPNREQ_TEST/con
 working dir  = /scratch1/NCEPDEV/stmp2/Minsuk.Ji/FV3_OPNREQ_TEST/opnReqTest_29987/control_bit_base
 Checking test bit_base control results ....
 Moving baseline bit_base control files ....
- Moving sfcf000.nc .........PASSED
+ Moving sfcf000.nc .........FAIL
  Moving sfcf021.nc .........OK
  Moving sfcf024.nc .........OK
  Moving atmf000.nc .........OK
