@@ -6,8 +6,8 @@ baseline dir = /scratch2/BMC/ome/Dustin.Swales/UFS/stmp4/Dustin.Swales/FV3_OPNRE
 working dir  = /scratch2/BMC/ome/Dustin.Swales/UFS/stmp2/Dustin.Swales/FV3_OPNREQ_TEST/opnReqTest_114926/control_p8_bit_base
 Checking test bit_base control_p8 results ....
 Moving baseline bit_base control_p8 files ....
- Moving sfcf000.nc .........F
- Moving sfcf021.nc .........F
+ Moving sfcf000.nc .........OK
+ Moving sfcf021.nc .........OK
  Moving sfcf024.nc .........OK
  Moving atmf000.nc .........OK
  Moving atmf021.nc .........OK
