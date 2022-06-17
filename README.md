@@ -1,9 +1,12 @@
 <h1 align="center">
-UFS Weather Model Repository Develop Branch's Tracker for Regression Tests' Log Files
+UFS Weather Model Regression Test Log Extraction Application
 </h1>
 
 <p align="center">
-    <img src="images/header.png" width="700" height="150">
+    <img src="images/Wall_Times_Stacked.png" width="1200" height="450">
+    <img src="images/Resident_Sizes_Stacked.png" width="1200" height="450">
+    <img src="images/CommonRegTests_Wall_Times_Grouped_ZoomedOut.png" width="1200" height="450">
+
 </p>
 
 <h5 align="center">
@@ -16,25 +19,19 @@ UFS Weather Model Repository Develop Branch's Tracker for Regression Tests' Log 
 # About
 
 __Introduction:__
-[EDIT]
-Currently, the NOAA development teams' code managers are maintaining their datasets manually via regularly checking if a UFS timestamp dataset is being revised, committed and pushed to the UFS-WM development branch repository to maintain datasets that will only support the latest two-months of development UFS-WM code. There are times when UFS timestamp datasets are unused as they exceed the latest two-months of development UFS-WM code window and are left on-prem. While the EPIC team continues to work in parallel with the NOAA development teams' devleopment in UFS-WM code, the UFS data tracker bot will be able to support the data management of only storing datasets supporting the latest two months of development UFS-WM code within its cloud data storage via automatically tracking of the revisions that are made against the UFS timestamp datasets. 
+Currently, the NOAA development teams' code managers, users & developers are analyzing the UFS-WM RT's log metrics for each regression test performed for each RDHPCS within individual text files via regularly opening these text files & reading the metrics to check if UFS-WM regression tests has passed/failed.
 
 __Purpose:__
-[EDIT]
-The purpose of this script is to detect, track, and populate the revisions of the timestamp datasets made to the UFS-WM developemnt branch. The data tracker bot is integrated with Jenkins and will later be integrated with another script which will perform the 2 months window shift of datasets to maintain the NOAA development teams' code managers current practice stored and fulfill the stored data requirements.
+The purpose of this script is to parse, extract, summarize, & display the metrics presented within the UFS-WM RT logs into plot figures -- while extracting the most recent revisions of the UFS-WM RT logs made to the UFS-WM developemnt branch. As developmeny continues, the application will be integrated with Jenkins to automate the conversion of the logs into visuals.
 
 __Capabilities:__
-[EDIT]
 This script will be able to perform the following actions:
-* Extract single file daily & parse
-* Client makes a direct request for rt.sh from GitHub
-* rt.sh is read, preprocessed & extracts the timestamps of the relevant UFS datasets which has been pushed on GitHub.
-* Generates a file containing the datasets' timestamps
-* Program will compare the last log file with the most recent file containing the datasets' timestamps.
+* Extract content of the most recent revisions of the UFS-WM RT logs
+* Parse, summarize, & display the metrics presented within the UFS-WM RT logs into plot figures
+* Generates plot figures containing the metrics within the logs
 
 __Future Capabilities:__
-[EDIT]
-Will be integrated with another script, which will perform the 2 months window shift of datasets to maintain the NOAA development teams' code managers current practice and fulfill the stored data requirements.
+Could be integrated with another script, which will provide a user-friendly dashboard. Currently, the demo prevents a preview of a prototype of a dashboard that features the log metrics. Further development on the dashboard is TBD. 
 
 # Table of Contents
 * [Prerequisites](#Prerequisites)
@@ -53,7 +50,7 @@ Will be integrated with another script, which will perform the 2 months window s
 * N/A
 
 # Quick Start
-* For demonstration purposes, refer to 'rt_revision_tracker_scripts_demo.ipynb'
+* For demonstration purposes, refer to '_demo.ipynb'
 
 # Environment Setup:
 Install miniconda on your machine. Note: Miniconda is a smaller version of Anaconda that only includes conda along with a small set of necessary and useful packages. With Miniconda, you can install only what you need, without all the extra packages that Anaconda comes packaged with:
@@ -132,22 +129,20 @@ conda env export > [ENVIRONMENT FILENAME].yml
 [EDIT]
 Within the download, you will find the following directories and files:
 * Demo:
-    > rt_revision_tracker_scripts_demo.ipynb
+    > ####_demo.ipynb
 * Scripts:
-    > rt_revision_tracker.py
-    > rt_tracker_populate.py
-    > rt_tracker_reset.py
+    > 
 * List of Dependencies: 
-    > git_env.yml
+    > ###.yml
 
 # Documentation
 [EDIT]
-* Refer to rt_revision_tracker_scripts_demo.ipynb
+* Refer to ###_demo.ipynb
 
 # References
 * N/A
 
 # Version:
 [EDIT]
-* Draft as of 03/14/22
+* Draft as of 06/17/22
 
