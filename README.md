@@ -26,7 +26,8 @@ The purpose of this script is to parse, extract, summarize, & display the metric
 
 __Capabilities:__
 This script will be able to perform the following actions:
-* Extract content of the most recent revisions of the UFS-WM RT logs
+* Extract content of the most recent revisions of the UFS-WM RT logs (For development purposes, the application will extract the logs from /NOAA-EPIC
+/ufs-dev_logs repo/tests at this time -- which are the log files of  the UFS-WM RT repository's develop branch /tests/logs log files.)
 * Parse, summarize, & display the metrics presented within the UFS-WM RT logs into plot figures
 * Generates plot figures containing the metrics within the logs
 
