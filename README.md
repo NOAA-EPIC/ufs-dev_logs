@@ -36,7 +36,7 @@ This script will be able to perform the following actions:
 
 __Future Capabilities:__
 
-Could be integrated with another script, which will provide a user-friendly dashboard. Currently, the demo prevents a preview of a prototype of a dashboard that features the log metrics. Further development on the dashboard is TBD. 
+Could be integrated with another script, which will provide a user-friendly dashboard. Currently, the demo provides a prototype of a dashboard that features the log metrics. Further development on the dashboard is TBD. 
 
 # Table of Contents
 * [Prerequisites](#Prerequisites)
