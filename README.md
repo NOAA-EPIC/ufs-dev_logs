@@ -3,8 +3,8 @@ UFS Weather Model Repository Develop Branch's Tracker for Regression Tests' Log 
 </h1>
 
 <p align="center">
-    <img src="images/Resident_Sizes_Stacked.png" width="700" height="700">
-    <img src="images/Wall_Times_Stacked.png" width="700" height="700">
+    <img src="images/Resident_Sizes_Stacked.png" width="800" height="500">
+    <img src="images/Wall_Times_Stacked.png" width="800" height="500">
 
 </p>
 
