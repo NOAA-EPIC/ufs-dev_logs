@@ -137,7 +137,7 @@ Within the download, you will find the following directories and files:
 
 # Documentation
 [EDIT]
-* Refer to rt_revision_tracker_scripts_demo.ipynb
+* Refer to ###_demo.ipynb
 
 # References
 * N/A
