@@ -17,7 +17,6 @@ UFS Weather Model Regression Test Log Extraction Application
 </h5>
 
 # About
-
 __Introduction:__
 Currently, the NOAA development teams' code managers, users & developers are analyzing the UFS-WM RT's log metrics for each regression test performed for each RDHPCS within individual text files via regularly opening these text files & reading the metrics to check if UFS-WM regression tests has passed/failed.
 
