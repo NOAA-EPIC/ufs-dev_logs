@@ -3,8 +3,9 @@ UFS Weather Model Regression Test Log Extraction Application
 </h1>
 
 <p align="center">
-    <img src="images/Wall_Times_Stacked.png" width="1200" height="400">
-    <img src="images/Resident_Sizes_Stacked.png" width="1200" height="400">
+    <img src="images/Wall_Times_Stacked.png" width="1200" height="450">
+    <img src="images/Resident_Sizes_Stacked.png" width="1200" height="450">
+    <img src="images/CommonRegTests_Wall_Times_Grouped_ZoomedOut.png" width="1200" height="450">
 
 </p>
 
