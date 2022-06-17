@@ -19,19 +19,24 @@ UFS Weather Model Regression Test Log Extraction Application
 # About
 
 __Introduction:__
+
 Currently, the NOAA development teams' code managers, users & developers are analyzing the UFS-WM RT's log metrics for each regression test performed for each RDHPCS within individual text files via regularly opening these text files & reading the metrics to check if UFS-WM regression tests has passed/failed.
 
 __Purpose:__
+
 The purpose of this script is to parse, extract, summarize, & display the metrics presented within the UFS-WM RT logs into plot figures -- while extracting the most recent revisions of the UFS-WM RT logs made to the UFS-WM developemnt branch. As developmeny continues, the application will be integrated with Jenkins to automate the conversion of the logs into visuals.
 
 __Capabilities:__
+
 This script will be able to perform the following actions:
-* Extract content of the most recent revisions of the UFS-WM RT logs
+* Extract content of the most recent revisions of the UFS-WM RT logs (For development purposes, the application will extract the logs from /NOAA-EPIC
+/ufs-dev_logs repo/tests at this time -- which are the log files of  the UFS-WM RT repository's develop branch /tests/logs log files.)
 * Parse, summarize, & display the metrics presented within the UFS-WM RT logs into plot figures
 * Generates plot figures containing the metrics within the logs
 
 __Future Capabilities:__
-Could be integrated with another script, which will provide a user-friendly dashboard. Currently, the demo prevents a preview of a prototype of a dashboard that features the log metrics. Further development on the dashboard is TBD. 
+
+Could be integrated with another script, which will provide a user-friendly dashboard. Currently, the demo provides a prototype of a dashboard that features the log metrics. Further development on the dashboard is TBD. 
 
 # Table of Contents
 * [Prerequisites](#Prerequisites)
