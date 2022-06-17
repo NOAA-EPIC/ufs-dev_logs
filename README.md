@@ -1,5 +1,5 @@
 <h1 align="center">
-UFS Weather Model Repository Develop Branch's Tracker for Regression Tests' Log Files
+UFS Weather Model Regression Test Log Extraction Application
 </h1>
 
 <p align="center">
@@ -18,8 +18,10 @@ UFS Weather Model Repository Develop Branch's Tracker for Regression Tests' Log 
 # About
 
 __Introduction:__
+Currently, the NOAA development teams' code managers, users & developers are analyzing the UFS-WM RT's log metrics for each regression test performed for each RDHPCS within individual text files via regularly opening these text files & reading the metrics to check if UFS-WM regression tests has passed/failed.
+
 [EDIT]
-Currently, the NOAA development teams' code managers are maintaining their datasets manually via regularly checking if a UFS timestamp dataset is being revised, committed and pushed to the UFS-WM development branch repository to maintain datasets that will only support the latest two-months of development UFS-WM code. There are times when UFS timestamp datasets are unused as they exceed the latest two-months of development UFS-WM code window and are left on-prem. While the EPIC team continues to work in parallel with the NOAA development teams' devleopment in UFS-WM code, the UFS data tracker bot will be able to support the data management of only storing datasets supporting the latest two months of development UFS-WM code within its cloud data storage via automatically tracking of the revisions that are made against the UFS timestamp datasets. 
+There are times when UFS timestamp datasets are unused as they exceed the latest two-months of development UFS-WM code window and are left on-prem. While the EPIC team continues to work in parallel with the NOAA development teams' devleopment in UFS-WM code, the UFS data tracker bot will be able to support the data management of only storing datasets supporting the latest two months of development UFS-WM code within its cloud data storage via automatically tracking of the revisions that are made against the UFS timestamp datasets. 
 
 __Purpose:__
 [EDIT]
