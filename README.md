@@ -131,18 +131,18 @@ conda env export > [ENVIRONMENT FILENAME].yml
 [![Build badge](https://img.shields.io/badge/Build--gray.svg)](https://shields.io/)
 
 # What's Included
-[EDIT]
 Within the download, you will find the following directories and files:
 * Demo:
-    > ####_demo.ipynb
+    > GitHub CLI Pulling Comitted UFS-WM RT Log Files DashboardV6-Bootstrap.ipynb
 * Scripts:
-    > 
+    > GitHub CLI Pulling Comitted UFS-WM RT Log Files DashboardV6-Bootstrap.ipynb
+    > init_setup.py
 * List of Dependencies: 
     > ###.yml
 
 # Documentation
 [EDIT]
-* Refer to ###_demo.ipynb
+* Refer to GitHub CLI Pulling Comitted UFS-WM RT Log Files DashboardV6-Bootstrap.ipynb
 
 # References
 * N/A
