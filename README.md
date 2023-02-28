@@ -136,6 +136,7 @@ Within the download, you will find the following directories and files:
     > UFS-WM RT Log Files DashboardV7-Bootstrap.ipynb
 * Scripts:
     > UFS-WM RT Log Files DashboardV7-Bootstrap.ipynb
+    
     > init_setup.py
 * List of Dependencies: 
     > log_tracker.yml
