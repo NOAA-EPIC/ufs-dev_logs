@@ -133,21 +133,19 @@ conda env export > [ENVIRONMENT FILENAME].yml
 # What's Included
 Within the download, you will find the following directories and files:
 * Demo:
-    > GitHub CLI Pulling Comitted UFS-WM RT Log Files DashboardV6-Bootstrap.ipynb
+    > UFS-WM RT Log Files DashboardV7-Bootstrap.ipynb
 * Scripts:
-    > GitHub CLI Pulling Comitted UFS-WM RT Log Files DashboardV6-Bootstrap.ipynb
+    > UFS-WM RT Log Files DashboardV7-Bootstrap.ipynb
     > init_setup.py
 * List of Dependencies: 
     > ###.yml
 
 # Documentation
-[EDIT]
-* Refer to GitHub CLI Pulling Comitted UFS-WM RT Log Files DashboardV6-Bootstrap.ipynb
+* Refer to UFS-WM RT Log Files DashboardV7-Bootstrap.ipynb
 
 # References
 * N/A
 
 # Version:
-[EDIT]
 * Draft as of 06/17/22
 
