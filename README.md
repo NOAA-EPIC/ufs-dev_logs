@@ -38,7 +38,7 @@ __Future Capabilities:__
 Could be integrated with another script, which will provide a user-friendly dashboard. Currently, the demo provides a prototype of a dashboard that features the log metrics. Further development on the dashboard is TBD. 
 
 # Prerequisites
-* Python 3.9
+* [![Version badge](https://img.shields.io/badge/Python-3.9-blue.svg)](https://shields.io/)
 
 # Dataset
 * N/A
@@ -134,10 +134,6 @@ To create a .yml file, execute the following commands:
 * Export your active environment to a new file:
 
     * conda env export > [ENVIRONMENT FILENAME].yml
-
-# Status
-[![Version badge](https://img.shields.io/badge/Python-3.9-blue.svg)](https://shields.io/)
-[![Build badge](https://img.shields.io/badge/Build--gray.svg)](https://shields.io/)
 
 # What's Included
 Within the download, you will find the following directories and files:
