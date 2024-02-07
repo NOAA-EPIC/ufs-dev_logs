@@ -40,7 +40,7 @@ Could be integrated with another script, which will provide a user-friendly dash
 
 # Prerequisites
 * [![Version badge](https://img.shields.io/badge/Python-3.9-blue.svg)](https://shields.io/)
-* GitHub personal access token
+* GitHub Personal Access Token
 
 # Dataset
 * UFS-WM Log files
