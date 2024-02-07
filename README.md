@@ -144,10 +144,15 @@ To create a .yml file, execute the following commands:
 Within the download, you will find the following directories and files:
 * Scripts:
     > config.py
+    
     > setup.py
+    
     > main.py
+    
     > load_data.py
+    
     > generate_plots.py
+    
     > init_setup.py
 * List of Dependencies: 
     > log_tracker.yml
