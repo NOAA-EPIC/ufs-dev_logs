@@ -166,6 +166,6 @@ Within the download, you will find the following directories and files:
 # Version 1:
 * Draft as of 06/17/22
 
-* # Version 2:
+# Version 2:
 * Draft as of 02/07/24
 
