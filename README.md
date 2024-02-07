@@ -39,12 +39,16 @@ Could be integrated with another script, which will provide a user-friendly dash
 
 # Prerequisites
 * [![Version badge](https://img.shields.io/badge/Python-3.9-blue.svg)](https://shields.io/)
+* GitHub personal access token
 
 # Dataset
-* N/A
+* UFS-WM Log files
 
 # Quick Start
-* For demonstration purposes, refer to 'UFS-WM RT Log Files DashboardV7-Bootstrap.ipynb'
+1) Setup your conda environment per the instructions shown under the __Environment Setup__ section.
+2) Create your personal access token & set the credentials within the configuration file, config.py.
+3) Initially, you will need to run the initial setup script, setup.py, to pull the UFS-WM repository.
+4) Run the main script, __main.py__, to extract, transform, load, & generate the plots featuring the fetched UFS-WM test log files.
 
 # Environment Setup:
 
@@ -154,6 +158,9 @@ Within the download, you will find the following directories and files:
 [![Development badge](https://img.shields.io/badge/development-passing-green)](https://shields.io/)
 [![Build badge](https://img.shields.io/badge/build-passing-blue)](https://shields.io/)
 
-# Version:
+# Version 1:
 * Draft as of 06/17/22
+
+* # Version 2:
+* Draft as of 02/07/24
 
