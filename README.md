@@ -20,6 +20,7 @@ UFS Weather Model Regression Test Log Extraction Application
 __Introduction:__
 
 Currently, the NOAA development teams' code managers, users & developers are analyzing the UFS-WM RT's log metrics for each regression test performed for each RDHPCS within individual text files via regularly opening these text files & reading the metrics to check if UFS-WM regression tests has passed/failed.
+Note: This application is dependent on the current format of the UFS-WM log files (as of 02/2024), thus altering the internal format of the UFS-WM log files could affect the funcitionality of this application.
 
 __Purpose:__
 
@@ -39,12 +40,17 @@ Could be integrated with another script, which will provide a user-friendly dash
 
 # Prerequisites
 * [![Version badge](https://img.shields.io/badge/Python-3.9-blue.svg)](https://shields.io/)
+* GitHub Personal Access Token
 
 # Dataset
-* N/A
+* UFS-WM Log files
 
 # Quick Start
-* For demonstration purposes, refer to 'UFS-WM RT Log Files DashboardV7-Bootstrap.ipynb'
+1) Setup your conda environment per the instructions shown under the __Environment Setup__ section.
+2) Create your personal access token & set the credentials within the configuration file, __config.py__.
+3) Initially, you will need to run the initial setup script, __setup.py__, to pull the UFS-WM repository. 
+4) Run the main script, __main.py__, to extract, transform, load, & generate the plots featuring the fetched UFS-WM test log files.
+5) After running __main.py__, the plots & dataframes featuring the fetched UFS-WM test log files will be generated & saved to a directory called /main/plotly_results & /main/dataframes, respectively.
 
 # Environment Setup:
 
@@ -137,23 +143,29 @@ To create a .yml file, execute the following commands:
 
 # What's Included
 Within the download, you will find the following directories and files:
-* Demo:
-    > UFS-WM RT Log Files DashboardV7-Bootstrap.ipynb
 * Scripts:
-    > UFS-WM RT Log Files DashboardV7-Bootstrap.ipynb
+    > __config.py__
     
-    > init_setup.py
+    > __setup.py__
+    
+    > __main.py__
+    
+    > __load_data.py__
+    
+    > __generate_plots.py__
+    
+    > __init_setup.py__
 * List of Dependencies: 
-    > log_tracker.yml
-
-# Documentation
-* Refer to UFS-WM RT Log Files DashboardV7-Bootstrap.ipynb
+    > __log_tracker.yml__
 
 # Status
 
 [![Development badge](https://img.shields.io/badge/development-passing-green)](https://shields.io/)
 [![Build badge](https://img.shields.io/badge/build-passing-blue)](https://shields.io/)
 
-# Version:
+# Version 1:
 * Draft as of 06/17/22
+
+* # Version 2:
+* Draft as of 02/07/24
 
