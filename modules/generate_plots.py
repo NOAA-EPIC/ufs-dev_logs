@@ -6,10 +6,6 @@ import matplotlib.pyplot as plt
 import plotly.express as px
 import plotly.graph_objects as go
 import plotly.io as pio
-
-# Optional modules
-from dash import Dash, dcc, html, Input, Output
-import dash_bootstrap_components as dbc
 from dash_bootstrap_templates import load_figure_template
 templates = ["bootstrap",
              "minty",
