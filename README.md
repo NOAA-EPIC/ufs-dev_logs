@@ -157,9 +157,6 @@ Within the download, you will find the following directories and files:
 * List of Dependencies: 
     > log_tracker.yml
 
-# Documentation
-* Refer to UFS-WM RT Log Files DashboardV7-Bootstrap.ipynb
-
 # Status
 
 [![Development badge](https://img.shields.io/badge/development-passing-green)](https://shields.io/)
