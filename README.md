@@ -41,6 +41,10 @@ Could be integrated with another script, which will provide a user-friendly dash
 # Prerequisites
 * [![Version badge](https://img.shields.io/badge/Python-3.9-blue.svg)](https://shields.io/)
 * GitHub Personal Access Token
+* Code managers of the UFS-WM test frameworks must ensure the following remains unchanged:
+    * The current internal format of the UFS-RT logs must remain unchanged as of 02/2024. If the internal format is altered, then the current version of the UFS-WM RT Log Extraction Application's preprocessing module could be affected.
+    * The existing nomenclature of the log files (e.g. RegressionTest_<PLATFORM_NAME>.log, OpnReqTest_<TEST_NAME>_<PLATFORM>.log) within the UFS-WM test frameworks must remain unchanged as of 02/2024. If the nomenclature of the log files are altered, then the current version of the UFS-WM RT Log Extraction Application's data loading & preprocessing module could be affected.
+    * The current location of UFS-RT logs within the UFS-WM framework (https://github.com/ufs-community/ufs-weather-model/tree/develop/tests/logs) must remain unchanged as of 02/2024. If the log location is altered, then the current version of the UFS-WM RT Log Extraction Application's data loading module will be affected.
 
 # Dataset
 * UFS-WM Log files
