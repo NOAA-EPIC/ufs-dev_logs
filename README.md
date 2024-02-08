@@ -167,9 +167,6 @@ Within the download, you will find the following directories and files:
 [![Development badge](https://img.shields.io/badge/development-passing-green)](https://shields.io/)
 [![Build badge](https://img.shields.io/badge/build-passing-blue)](https://shields.io/)
 
-# Version 1:
-* Draft as of 06/17/22
-
-# Version 2:
-* Draft as of 02/07/24
+# Version:
+* Draft as of 02/08/24
 
