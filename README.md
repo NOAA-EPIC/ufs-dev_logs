@@ -21,7 +21,7 @@ UFS Weather Model Regression Test Log Extraction Application
 __Introduction:__
 
 Currently, the NOAA development teams' code managers, users & developers are analyzing the UFS-WM RT's log metrics for each regression test performed for each RDHPCS within individual text files via regularly opening these text files & reading the metrics to check if UFS-WM regression tests has passed/failed.
-Note: This application is dependent on the current format of the UFS-WM log files (as of 02/2024), thus altering the internal format of the UFS-WM log files could affect the funcitionality of this application.
+Note: This application is dependent on the current format of the UFS-WM log files (as of 02/2024), thus altering the internal format of the UFS-WM log files could affect the functionality of this application. 
 
 __Purpose:__
 
@@ -168,6 +168,4 @@ Within the download, you will find the following directories and files:
 [![Development badge](https://img.shields.io/badge/development-passing-green)](https://shields.io/)
 [![Build badge](https://img.shields.io/badge/build-passing-blue)](https://shields.io/)
 
-# Version:
-* Draft as of 02/08/24
 
