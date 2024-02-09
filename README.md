@@ -3,7 +3,7 @@ UFS Weather Model Regression Test Log Extraction Application
 </h1>
 
 <p align="center">
-    <img src="images/NumOfTests_vs_Platform-to-Comp_bar.png" width="600" height="500">
+    <img src="images/RT_NumOfTests_vs-Platform_hg.png" width="600" height="500">
     <img src="images/NumOfTests_vs_Framework-to-Compilers_hg.png" width="600" height="500">
     <img src="images/Opnreq_NumOfTests_vs_TestName-to-Platform_bar.png" width="600" height="500">
     <img src="images/Wall_Times_Stacked.png" width="1200" height="450">
