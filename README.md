@@ -8,7 +8,6 @@ UFS Weather Model Regression Test Log Extraction Application
     <img src="images/CommonRegTests_Wall_Times_Grouped_ZoomedOut.png" width="1200" height="450">
     <img src="images/RT_NumOfTests_vs-Platform_hg.png" width="600" height="500">
     <img src="images/NumOfTests_vs_Framework-to-Compilers_hg.png" width="600" height="500">
-Opnreq_NumOfTests_vs_TestName-to-Platform_bar.png
 </p>
 
 <h5 align="center">
@@ -53,10 +52,10 @@ Could be integrated with another script, which will provide a user-friendly dash
 
 # Quick Start
 1) Setup your conda environment per the instructions shown under the __Environment Setup__ section.
-2) Create your personal access token & set the credentials within the configuration file, __config.py__.
+2) Create your GItHub personal access token & set the credentials within the configuration file, __config.py__.
 3) Initially, you will need to run the initial setup script, __setup.py__, to pull the UFS-WM repository. 
 4) Run the main script, __main.py__, to extract, transform, load, & generate the plots featuring the fetched UFS-WM test log files.
-5) After running __main.py__, the plots & dataframes featuring the fetched UFS-WM test log files will be generated & saved to a directory called /main/plotly_results & /main/dataframes, respectively.
+5) After running __main.py__, the plots & dataframes featuring the fetched UFS-WM test log files will be generated & saved to the directories called /main/plotly_results & /main/dataframes, respectively.
 
 # Environment Setup:
 
