@@ -55,7 +55,7 @@ Could be integrated with another script, which will provide a user-friendly dash
 2) Create your GItHub personal access token & set the credentials within the configuration file, __config.py__.
 3) Initially, you will need to run the initial setup script, __setup.py__, to pull the UFS-WM repository. 
 4) Run the main script, __main.py__, to extract, transform, load, & generate the plots featuring the fetched UFS-WM test log files.
-5) After running __main.py__, the plots & dataframes featuring the fetched UFS-WM test log files will be generated & saved to the directories called /main/plotly_results & /main/dataframes, respectively.
+5) After running __main.py__, the plots & dataframes featuring the fetched UFS-WM test log files will be generated & saved to the directories called /main/plot_results & /main/dataframes, respectively.
 
 # Environment Setup:
 
