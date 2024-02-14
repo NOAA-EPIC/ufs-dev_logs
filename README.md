@@ -1,5 +1,5 @@
 <h1 align="center">
-UFS Weather Model Regression Test Log Extraction Application
+UFS Weather Model Regression <br> Test Log Extraction Application
 </h1>
 
 <p align="center">
