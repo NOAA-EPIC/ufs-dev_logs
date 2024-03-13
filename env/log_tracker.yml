@@ -41,7 +41,6 @@ dependencies:
   - nest-asyncio=1.5.5
   - openssl=1.1.1o
   - parso=0.8.3
-  - pexpect=4.8.0
   - pickleshare=0.7.5
   - pip=21.2.4
   - plotly=5.8.0
@@ -76,6 +75,9 @@ dependencies:
       - beautifulsoup4==4.11.1
       - bleach==5.0.0
       - cffi==1.15.0
+      - colorama==0.4.6
+      - colorlog==6.8.2
+      - colormap==1.0.6
       - config==0.5.1
       - cycler==0.11.0
       - dash-bootstrap-templates==1.0.5
@@ -83,6 +85,7 @@ dependencies:
       - dash-html-components==2.0.0
       - dash-table==5.0.0
       - defusedxml==0.7.1
+      - easydev==0.13.1
       - fastjsonschema==2.15.3
       - fonttools==4.33.3
       - gitdb==4.0.9
@@ -97,6 +100,7 @@ dependencies:
       - jupyterlab-widgets==1.1.0
       - kaleido==0.2.1
       - kiwisolver==1.4.2
+      - line-profiler==4.1.2
       - matplotlib==3.5.2
       - mistune==0.8.4
       - nbclient==0.6.3
@@ -107,7 +111,9 @@ dependencies:
       - packaging==21.3
       - pandas==1.4.2
       - pandocfilters==1.5.0
+      - pexpect==4.9.0
       - pillow==9.1.1
+      - platformdirs==4.2.0
       - prometheus-client==0.14.1
       - pycparser==2.21
       - pyparsing==3.0.9
