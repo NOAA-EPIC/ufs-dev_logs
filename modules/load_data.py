@@ -83,7 +83,7 @@ class LoadData():
         - 2022: Some tests logs are defined by the platform and their
         associated compiler for which the tests was compiled on -- however
         not all of these log files will have a defined compiler listed within
-        their filenames. Some Operational Requirements Tests logs are defined by the regression test name, 
+        their filenames. Some Operation Requirements Tests logs are defined by the regression test name, 
         platform, & compiler listed within their filenames (e.g. OpnReqTests_cpld_bmark_p8_hera.intel.log)
         
         """
@@ -208,7 +208,7 @@ class LoadData():
                     run_dt_list = [dt_obj.time() for dt_obj in run_dt_list]
                     wallnwait_dt_list = [dt_obj.time() for dt_obj in wallnwait_dt_list]
                     
-            # Operational Req. & Regression Test logs feature different internal formats
+            # Operation Req. & Regression Test logs feature different internal formats
             if log_fn.startswith('OpnReqTests'):
                 
                 # Framework type parsed & extracted
@@ -404,7 +404,8 @@ class LoadData():
         self.wall_time_df.loc[self.wall_time_df['Test_Framework_Type']=='Regression Testing', 'Test'] = self.wall_time_df['Test_Description'].str.rsplit('_',1).str[0]
         self.wall_time_df.loc[self.wall_time_df['Test_Framework_Type']=='Regression Testing', 'Compiler'] = self.wall_time_df['Test_Description'].str.split('_').str[-1]
         
-        # NOTE: Regression Test Logs only declares compiler per test within test status
+        # Regression Test Compiler per Test. 
+        # *NOTE: Regression Test Logs only declares compiler per test within test status line
         self.wall_time_df['Platform_Compiler'] = self.wall_time_df['Filename_Description'] + ' + ' + self.wall_time_df['Compiler']
 
         # Operation Req. Test Logs wall time
@@ -412,7 +413,8 @@ class LoadData():
         self.wall_time_df.loc[self.wall_time_df['Test_Framework_Type']=='Operation Requirement Test', 'Test'] = self.wall_time_df['Filename_Description'].str.rsplit('_',1).str[0] + ' + ' + self.wall_time_df['Test_Description']
         self.wall_time_df.loc[self.wall_time_df['Test_Framework_Type']=='Operation Requirement Test', 'Test Case'] = self.wall_time_df['Test_Description']
         
-        # Operational Req. Test Logs no longer declares compiler per test within test status
+        # Operation Req. Test's Compiler per Test will be empty. 
+        # Reason: Operation Req. Test Logs no longer declares compiler per test within test status line & extracting it from a directory filename is undesirable.
         self.wall_time_df.loc[self.wall_time_df['Test_Framework_Type']=='Operation Requirement Test', 'Platform_Compiler'] = self.wall_time_df['Platform']
         
         # Convert to datetime to minutes
@@ -428,7 +430,8 @@ class LoadData():
         self.test_sz_df.loc[self.test_sz_df['Test_Framework_Type']=='Regression Testing', 'Test'] = self.test_sz_df['Test_Description'].str.rsplit('_',1).str[0]
         self.test_sz_df.loc[self.test_sz_df['Test_Framework_Type']=='Regression Testing', 'Compiler'] = self.test_sz_df['Test_Description'].str.split('_').str[-1]
 
-        # NOTE: Regression Test Logs only declares compiler per test within test status
+        # Regression Test Compiler per Test. 
+        # *NOTE: Regression Test Logs only declares compiler per test within test status line
         self.test_sz_df['Platform_Compiler'] = self.test_sz_df['Filename_Description'] + ' + ' + self.test_sz_df['Compiler']
 
         # Operation Req. Test Logs test size
@@ -436,12 +439,12 @@ class LoadData():
         self.test_sz_df.loc[self.test_sz_df['Test_Framework_Type']=='Operation Requirement Test', 'Test'] = self.test_sz_df['Filename_Description'].str.rsplit('_',1).str[0] + ' + ' + self.test_sz_df['Test_Description']
         self.test_sz_df.loc[self.test_sz_df['Test_Framework_Type']=='Operation Requirement Test', 'Test Case'] = self.test_sz_df['Test_Description']
 
-        # NOTE: Operational Req. Test Logs no longer declares compiler per test within test status
+        # Operation Req. Test's Compiler per Test will be empty. 
+        # Reason: Operation Req. Test Logs no longer declares compiler per test within test status line & extracting it from a directory filename is undesirable.
         self.test_sz_df.loc[self.test_sz_df['Test_Framework_Type']=='Operation Requirement Test', 'Platform_Compiler'] = self.test_sz_df['Platform']
         #self.test_sz_df = self.test_sz_df.replace(np.nan, np.nan)
 
-        # Note: Scale is adjusted to obtain e test size in MB as set within the new version of
-        # the UFS-WM RT logs (as of 03/08)
+        # Note: Scale is adjusted to obtain e test size in MB as set within new version of UFS-WM RT logs (as of 03/08)
         test_sz_scaled2mb = 2**20
         self.test_sz_df['Max Resident Set Size (MB)'] = self.test_sz_df['Max Resident Set Size (bytes)'].apply(lambda x: x/(test_sz_scaled2mb))
         
